@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .simon{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    border: 13px solid black;
+    gap: 13px;
+    position: relative;
+  }
+  body{
+    background: linear-gradient(to right bottom, purple, rgb(194, 4, 194) );
+    
+  }
+  .color{
+    border: none;
+  }
+  .color:hover{
+    cursor: pointer;
+  }
+  
+  .simon::before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    top:75px;
+    left:73px;
+    z-index: 100;
+  }
+  .reset{
+    width: 150px;
+    height: 50px;
+    background: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+  }
+  .reset:hover{
+    background: lightgray;
+  }
+  h1{
+    color: white;
+  }
+.g{background: linear-gradient(to right bottom ,#00ff00 ,#05cf05 , rgb(108, 245, 108));}
+.r{background: linear-gradient(to left bottom ,#ff0000 ,#cf0202 , rgb(245, 79, 79));}
+.y{background: linear-gradient(to right top ,#fffb00 ,#b3b003 , rgb(245, 228, 79));}
+.b{background: linear-gradient(to left top ,#1900ff ,#12039b , rgb(79, 82, 245));}
+
+.modal{
+    position:absolute;
+    background-color: white;
+    width: 250px;
+    height:120px;
+    top:95px;
+    left:25px;
+    z-index: 101;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    opacity: 0;
+}
+.modal button{
+    height: 35px;
+    width: 100px;
+}

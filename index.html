@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMÓN DICE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="texto">Puntos: 0</h1>
+        <div class="simon">
+            <button class="color g" id="1" onclick="checar(1)"></button>
+            <button class="color r" id="2" onclick="checar(2)"></button>
+            <button class="color y" id="3" onclick="checar(3)"></button>
+            <button class="color b" id="4" onclick="checar(4)"></button>
+
+            <div class="modal" id="modal-id" >
+                <h2>Has perdido</h2>
+                <button onclick="setModal()" >Aceptar</button>
+            </div>
+
+        </div>
+        <button class="reset" onclick="iniciar()">INICIAR</button>
+    </div>
+
+</body>
+</html>
