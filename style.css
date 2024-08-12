@@ -107,4 +107,7 @@ button:active {
     -webkit-tap-highlight-color: transparent;
     outline: none;
 }
+.color:active{
+  opacity: 0.6;
+}
 
