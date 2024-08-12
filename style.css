@@ -98,34 +98,13 @@
   .modal button {
     height: 35px;
     width: 100px;
-<<<<<<< HEAD
+
   }
   
-  button {
-    border: none; /* Asegúrate de que los botones no tengan borde */
-    background: transparent; /* Asegúrate de que los botones no tengan fondo por defecto */
-    cursor: pointer;
-    outline: none;
-    -webkit-focus-ring-color: transparent;
-    box-shadow: none;
-  }
-  
-  button:active {
-    background-color: rgba(0, 0, 0, 0.1); /* Ajusta según tu diseño */
-  }
-  
-  button:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  
-  
-=======
-}
 button, 
 button:focus, 
 button:active {
     -webkit-tap-highlight-color: transparent;
     outline: none;
 }
->>>>>>> rama2
+
