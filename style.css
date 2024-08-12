@@ -9,7 +9,7 @@
   }
   
   .container {
-    height: 100vh;
+    height: var(--altura-ventana);
     display: flex;
     flex-direction: column;
     align-items: center;

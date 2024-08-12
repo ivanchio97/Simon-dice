@@ -78,3 +78,13 @@ function setModal(){
     modal.style.opacity = "0";
     location.reload();
 }
+
+
+const ajustarAltura = () => {
+    const alturaReal = window.innerHeight;
+    document.documentElement.style.setProperty('--altura-ventana', `${alturaReal}px`);
+};
+
+window.addEventListener('resize', ajustarAltura);
+window.addEventListener('orientationchange', ajustarAltura);
+ajustarAltura();
