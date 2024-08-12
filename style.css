@@ -98,6 +98,7 @@
   .modal button {
     height: 35px;
     width: 100px;
+<<<<<<< HEAD
   }
   
   button {
@@ -119,3 +120,12 @@
   }
   
   
+=======
+}
+button, 
+button:focus, 
+button:active {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+>>>>>>> rama2
