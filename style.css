@@ -88,3 +88,9 @@
     height: 35px;
     width: 100px;
 }
+button, 
+button:focus, 
+button:active {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
